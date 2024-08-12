@@ -1,7 +1,10 @@
+import { LoginComponent } from "@/components/auth/LoginComponent"
 
 function LoginPage() {
   return (
-    <div>LoginPage</div>
+    <main className="p-5 lg:p-0">
+      <LoginComponent />
+    </main>
   )
 }
 

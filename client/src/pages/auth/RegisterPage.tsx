@@ -1,7 +1,10 @@
+import { RegisterComponent } from "@/components/auth/RegisterComponent"
 
 function RegisterPage() {
   return (
-    <div>RegisterPage</div>
+    <main className="p-5 lg:p-0">
+      <RegisterComponent />
+    </main>
   )
 }
 
